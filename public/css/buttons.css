@@ -24,10 +24,74 @@
 
 .primary-button:hover {
   background: #36cf82;
+  text-decoration: underline;
 }
 
 .primary-button img {
   margin-right: 1.6rem;
+}
+
+/*Buttons para as redes sociais*/
+
+.instagram-button {
+
+  margin-top: 2.4rem;
+  
+  width:100%;
+  height: 6.4rem;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  background: #f09433; 
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color 0.2s;
+
+  text-decoration: none;
+}
+
+.instagram-button img {
+  margin-right: 1.6rem;
+}
+
+.instagram-button:hover {
+  text-decoration: underline;
+}
+
+.facebook-button {
+
+  margin-top: 2.4rem;
+  width:100%;
+  height: 6.4rem;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  background: #618ae2;
+  border-radius: 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color 0.2s;
+
+  text-decoration: none;
+}
+
+.facebook-button img {
+  margin-right: 1.6rem;
+}
+
+.facebook-button:hover {
+  background: #48a6ff;
+  text-decoration: underline;
 }
 
 /*Buttons create-orphanage (Visitação)*/
