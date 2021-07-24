@@ -75,6 +75,8 @@ module.exports = {
         name: fields.name,
         about: fields.about,
         whatsapp: fields.whatsapp,
+        instagram: fields.instagram,
+        facebook: fields.facebook,
         images: fields.images.toString(),
         instructions: fields.instructions,
         opening_hours: fields.opening_hours,

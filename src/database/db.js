@@ -10,6 +10,8 @@ function execute(db) {
             name TEXT,
             about TEXT,
             whatsapp TEXT,
+            instagram TEXT,
+            facebook TEXT,
             images TEXT,
             instructions TEXT,
             opening_hours TEXT,
@@ -20,3 +22,4 @@ function execute(db) {
 }
 
 module.exports = Database.open(__dirname + "/database.sqlite").then(execute);
+
