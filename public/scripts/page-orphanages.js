@@ -27,15 +27,15 @@ function addMarker({ id, name, lat, lng }) {
   L.marker([lat, lng], { icon }).addTo(map).bindPopup(popup);
 }
 
-const orphanagesSpan = document.querySelectorAll('.orphanages span')
+const orphanagesSpan = document.querySelectorAll(".orphanages span");
 
-orphanagesSpan.forEach( span => {
+orphanagesSpan.forEach((span) => {
   const orphanage = {
     id: span.dataset.id,
     name: span.dataset.name,
     lat: span.dataset.lat,
-    lng: span.dataset.lng
-  }
+    lng: span.dataset.lng,
+  };
 
-  addMarker(orphanage)
-})
+  addMarker(orphanage);
+});

@@ -18,7 +18,7 @@ module.exports = {
       const results = await db.all(
         `SELECT * FROM orphanages WHERE id = "${id}"`
       );
-      
+
       const orphanage = results[0];
 
       //Colocando as imagens que foram salvas como string em um array, separando-as pela vírgula
@@ -84,14 +84,10 @@ module.exports = {
       });
 
       //Redirecionamento para uma página após salvar
-      return res.redirect('/orphanages')
-
+      return res.redirect("/orphanages");
     } catch (error) {
       console.log(error);
       return res.send("Erro no banco de dados!");
     }
-
-  }
-
-  
+  },
 };
