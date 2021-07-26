@@ -86,3 +86,4 @@ function toggleSelect(event) {
 
   input.value = button.dataset.value;
 }
+
